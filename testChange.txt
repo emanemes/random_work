@@ -1,0 +1,4 @@
+userId=1/playlistId=13/songId=123/action=ADD_PLAYLIST
+userId=1/playlistId=12/songId=123/action=ADD_SONG
+userId=2/playlistId=23/songId=131,132,133/action=ADD_PLAYLIST
+userId=2/playlistId=21/action=REMOVE_PLAYLIST

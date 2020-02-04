@@ -1,0 +1,52 @@
+[
+    {
+	"userId": 1,
+	"playlists": [{
+			"playlistId": 11,
+			"songs": [{
+					"songId": 111
+				},
+				{
+					"songId": 112
+				}
+			]
+		},
+		{
+			"playlistId": 12,
+			"songs": [{
+					"songId": 121
+				},
+				{
+					"songId": 122
+				}
+			]
+		}
+	]
+    },
+    {
+	"userId": 2,
+	"playlists": [{
+			"playlistId": 21,
+			"songs": [{
+					"songId": 211
+				},
+				{
+					"songId": 212
+				}
+			]
+		},
+		{
+			"playlistId": 22,
+			"songs": [{
+					"songId": 221
+				},
+				{
+					"songId": 222
+				}
+			]
+		}
+	]
+    }
+
+
+]
