@@ -15,7 +15,7 @@ From the directory containing the java classes:
 
 Solution Details:
 -----------------
-The conceptually simplest solution is the represent both input and changes roughly as json trees, and then merge nodes. However, reading json into memory is not scalable. The implemented solution is more scalable, certain assumptions having been made as follows:
+The simplest solution conceptually is to represent both input and changes roughly as json trees, and then merge nodes. However, reading json into memory is not scalable. The implemented solution is more scalable, certain assumptions having been made as follows:
 - users, playlists and songs are represented only by ids. The metadata for each is stored elsewhere.
 - only a subset of the possible CRUD operations are implemented, but the code can be easily extended to other operations.
 - the users, playlists and songs in the input file are assumed to be sorted by id, and that the order of attributes is the same (userId, playlists)
