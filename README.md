@@ -9,7 +9,7 @@ A set of two files is provided for testing, under test/resources
 How To Use:
 -----------
 From the directory containing the java classes:
-- (optional) compile using the following command: javac -classpath ".:lib/jackson-core-2.9.7.jar:lib/jackson-databind-2.9.7.jar:lib/jackson-annotations-2.9.7.jar"  *.java
+- compile using the following command: javac -classpath ".:lib/jackson-core-2.9.7.jar:lib/jackson-databind-2.9.7.jar:lib/jackson-annotations-2.9.7.jar"  *.java
 - excute the resulting jar using the provided script run.sh, which defaults to using the test sample inputs. The output will be in a file testChange_<timestamp>.txt.
 
 
